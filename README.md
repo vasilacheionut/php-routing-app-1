@@ -26,7 +26,9 @@ php -S localhost:8000 -t public public/router.php
 │ ├── about.php # Display page when accessing /about
 │ ├── menu.php # Display menu
 │ └── welcome.php # Display page when accessing /
-
+├── start.sh
+├── README.md
+│
 ```
 
 ## Create Project Structure
