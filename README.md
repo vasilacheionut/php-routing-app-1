@@ -1,6 +1,9 @@
 # Mini PHP Framework - Simple Routing System
 
-This project is a simple example of a PHP application that implements a routing system from scratch, without external frameworks.
+This project is based on php-routing-app
+
+# Pornește serverul PHP cu root-ul în /public și router-ul personalizat
+php -S localhost:8000 -t public public/router.php
 
 ## Project Structure
 
@@ -8,6 +11,7 @@ This project is a simple example of a PHP application that implements a routing 
 /php-routing-app
 │
 ├── public/
+│ ├── router.php # 
 │ └── index.php # Application entry point
 │
 ├── routes/
